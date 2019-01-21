@@ -6,6 +6,9 @@ In this project, we'll introduce you to vanilla JS DOM manipulation by creating 
 
 ## Example
 
+### Setup
+Fork and clone this repository and open the folder in your code editor.
+
 ### Step 1
 
 #### Summary
@@ -15,11 +18,11 @@ In this step, we'll create our Javascript file and connect it to our HTML.
 #### Instructions
 
 - Create a new file called `index.js`.
-- Add a `console.log()` so we can see if the script is running.
+- Add a `console.log('hello world')` so we can see if the script is running.
 - Open `index.html`
 - Inside the `<body>` tag, but after the `<main>` element, add a `<script>` tag to bring in your `index.js` file.
 - Open `index.html` in your web browser.
-  - Open the console and look for the `console.log()` from your Javascript file. If it doesn't appear, check the file path in your `<script>` tag.
+  - Open the console and look for the `hello world` console log from your Javascript file. If it doesn't appear, check the file path in your `<script>` tag.
 
 #### Solution
 
