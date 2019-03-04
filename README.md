@@ -209,7 +209,7 @@ In this step, we will start working on the javascript functions needed to change
 - Use `document.getElementsByTagName` to select the `body` element and change its `className` property to the `theme` variable.
   - Remember that `document.getElementsByTagName` returns a `NodeList`, which is similar to an array. You'll need to use square bracket notation to edit the `className` property of the first element in the `NodeList`
 - Repeat this step for the `main` element.
-- Since there are multiple buttons that need to be updated, use a `for` loop to change the `className` property for every `button` element in the `NodeList`.
+- We will need to select all of the buttons in the `index.html` file. We can use `document.getElementsByTagName` to select all of them and assign them to a variable called `buttons`. We will to use a `for` loop to change the `className` property for every `button` element in the buttons variable. Remember, when selecting elements with `document.getElementsByTagName`, it returns a `NodeList` which is an array-like list.
 
 #### Solution
 
